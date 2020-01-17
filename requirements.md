@@ -1,0 +1,31 @@
+# Requirements
+
+- Encrypt dataset in the database
+- Ecrypt dataset in transit
+- Trust no one
+- Encode all output
+- Scan libraries and third-party components
+- Use all applicable security headers
+- Hash and salt passwords (salt at least 28 characters)
+- HTTPS
+- Latest version of TLS for encryption
+- Never hardcode anything
+- Never put sensitive informations in comments
+- Use all the security features of your framework
+- Use the latest and up to date versions
+- OWASP advices about file upload
+- Log cleaned errors
+- Server side sanitarization (white list)
+- Seurity testing before release
+- Threat modelling before release
+- Code review before release
+- Catch errors and safe fail state
+- Specifics on auth methods
+- Only use parameterized queries, never inline SQL
+- Forbid passing variables like UserID ...
+- Enforces least privilege
+- Minimize attack surface
+- Allow cut and paste passwords and disable autocomplete
+- Disable caching when sensitive informations
+- Use passphrases, compare sha1 hashes with IHaveBeenPnwed
+- Use a secret store
